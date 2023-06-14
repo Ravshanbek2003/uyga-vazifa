@@ -1,0 +1,462 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1412px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.main {
+  max-width: 1920px;
+  height: 5039px;
+  background-color: #FFFFFF;
+}
+.main .container {
+  padding-top: 62px;
+}
+.main .container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .container header .logo {
+  display: flex;
+  align-items: center;
+}
+.main .container header .logo .logo-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44.9271px;
+  line-height: 54px;
+}
+.main .container header .navbar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.main .container header .navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+.main .container header .navbar ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.main .container header .navbar .header-btn {
+  padding: 9px 20px;
+  border-radius: 5px;
+  background-color: #FD6F00;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  font-family: "Poppins";
+  font-style: normal;
+  border: none;
+}
+.main .designer .container {
+  padding-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .designer .container .des-left .text-1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  font-family: "Poppins";
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.main .designer .container .des-left .text-2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+  font-family: "Poppins";
+  font-style: normal;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #FD6F00;
+  letter-spacing: 0.03em;
+}
+.main .designer .container .des-left #text-3-id {
+  margin-left: 200px;
+}
+.main .designer .container .des-left .text-3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 150px;
+  /* identical to box height */
+  color: #000;
+  letter-spacing: 0.03em;
+}
+.main .designer .container .des-left .text-4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: justify;
+  letter-spacing: 0.03em;
+}
+.main .designer .container .des-left .des-btn {
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: #FD6F00;
+  color: #FFFFFF;
+  padding: 11px 52px;
+  border: none;
+}
+.main .designer .container .des-right .img-blok {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.main .about .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .about .container .about-right .text-1 {
+  margin-left: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 98px;
+  /* identical to box height */
+  color: #000;
+  letter-spacing: 0.03em;
+}
+.main .about .container .about-right .text-2 {
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+}
+.main .about .container .about-right .about-img-blok img {
+  width: 753px;
+  height: 76px;
+}
+.main .servic .container h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 98px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.main .servic .container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: black;
+  margin: 10px 0 50px;
+}
+.main .servic .container .flek {
+  display: flex;
+  justify-content: space-between;
+}
+.main .servic .container .flek .item {
+  width: 330px;
+  height: 300px;
+  background-color: #F3F3F3;
+  border-radius: 14px;
+  padding: 50px 20px 10px;
+}
+.main .servic .container .flek .item h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: black;
+  text-align: start;
+  margin: 20px 0 15px;
+}
+.main .servic .container .flek .item p {
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: start;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.main .project .container {
+  padding-top: 130px;
+}
+.main .project .container .textpro {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 98px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.main .project .container .btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 50px 0 76px;
+  margin-left: 250px;
+}
+.main .project .container .btns li a {
+  padding: 10px 16px 10px 15px;
+  background: #f3f3f3;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.main .project .container .btns .active a {
+  background-color: #fd6f00;
+  color: #fff;
+}
+.main .project .container .projeck-img-blok {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .project .container .projeck-img-blok .blok .img-c {
+  width: 449px;
+  height: 500px;
+  background: url(./img/project-z1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main .project .container .projeck-img-blok .blok .img-c img {
+  margin-top: 87px;
+  margin-left: 60px;
+}
+.main .project .container .projeck-img-blok .blok .text1 {
+  margin-top: 37px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  /* identical to box height */
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
+  /* Foundation /Orange/orange-500 */
+  color: #FF6300;
+}
+.main .project .container .projeck-img-blok .blok .text2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  font-family: "Poppins";
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.main .project .container .pr-centr {
+  margin-top: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.main .monial .container {
+  padding-top: 120px;
+}
+.main .monial .container .text1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 98px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.main .monial .container .text2 {
+  mask-type: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.main .contact {
+  width: 100%;
+  padding: 60px 0 120px;
+}
+.main .contact .container h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 98px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.main .contact .container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: black;
+  margin: 15px 0 90px;
+}
+.main .contact .container .flex {
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.main .contact .container .flex input {
+  width: 627px;
+  height: 75px;
+  background: #F8F8F8;
+  border: 1px solid #AFAFAF;
+  border-radius: 14px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: start;
+  letter-spacing: 0.03em;
+  color: #797979;
+  padding: 0 25px;
+}
+.main .contact .container .flex button {
+  padding: 20px 35px;
+  border-radius: 14px;
+}
+.main .contact .container .flex button:hover {
+  background-color: #FD6F00;
+}
+.main .footer {
+  background: #F8F8F8;
+}
+.main .footer .container .social-media {
+  text-align: center;
+  margin-top: 30px;
+  gap: 25px;
+}
+.main .footer .container .social-media img {
+  margin-left: 25px;
+}
+.main .footer .container .footer-bottom {
+  margin-top: 60px;
+  background: #545454;
+  padding: 26px 0;
+  text-align: center;
+}
+.main .footer .container .footer-bottom h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.main .footer .container .footer-bottom h1 span {
+  color: #fd6f00;
+}
+.main .footer .container .footer-logo {
+  text-align: center;
+  margin-bottom: 88px;
+}
+.main .footer .container .footer-logo a {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.main .footer .container .footer-logo a span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44.9271px;
+  line-height: 54px;
+  color: #000000;
+}
+.main .footer .container .nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 41px;
+}
+.main .footer .container .nav ul li:hover a {
+  opacity: 0.8;
+}
+.main .footer .container .nav ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}/*# sourceMappingURL=main.css.map */
